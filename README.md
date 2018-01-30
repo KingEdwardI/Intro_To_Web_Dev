@@ -15,58 +15,44 @@ Topics:
 ### Day Two
 
 Topics:
+  Bootstrap
   Javascript
   Building an animated webpage
-  Web Hosting
+  Web Hosting & Publishing
 
 > Students will learn how to include javascript into their applications; How to structure and build a small application; How an application is different from a webpage; What is web hosting & how to use it.
 
-(1)
+Day 1
+-----
 
-## Decoding the Alphabet Soup: What is HTML, CSS, Javascript?
+# Introduction & Overview
+[9:00 - 9:15]
 
-An analogy:
+# Decoding the Alphabet Soup: What is HTML, CSS, Javascript?
+[9:15 - 9:45]
 
-HTML is like the skeleton, just bones for basic structure.
-each html *tag* is like a different bone, or set of bones. they can be reused for their specific purpose, but if you try to put a body where the head goes...
-[http://www.netanimations.net/Animated-gif-creepy-picture-moving.gif]
-html provides structure for the webpage, and needs to be set up accordingly.
+* analogy
 
-
-CSS is the skin of the webpage, this is what makes it look nice.
-Healthy skin takes some work -- the range of products out there for it is astonishing. However you can also stick to basics.
-healthy css is the same way. there are endless capabilities with css, but you can have good css without overwhelming yourself with possibilities.
-
-Javascript is the muscles. it's what makes things move, think, act, and even talk to other webpages.
-animations, making things happen or change and getting information from other websites is all done with javascript.
-
-## Markup vs Programming
-
-HTML, A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text.
+* HTML, A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text.
   -- we can tell that we are giving structure with `<body>` and `<h1>`, etc. versus providing content `the quick brown fox`
-CSS, A style sheet language, or style language, is a computer language that expresses the presentation of structured documents.
+* CSS, A style sheet language, or style language, is a computer language that expresses the presentation of structured documents.
   -- how we describe the details of the layout to the computer.
-Javascript, A programming language is something that can be used to solve a problem/perform an alogrithm. 
+* Javascript, A programming language is something that can be used to solve a problem/perform an alogrithm. 
   -- 2 + 2 = 4 - 1 = 3 quick mafs
 
-## Intro to HTML
+# Intro to HTML
+[9:45 - 10:00]
 
-HyperText Markup Language
+* HyperText Markup Language
 
-Because HTML is used for structuring the webpage, it's good to provide a good foundation for this structure. We do this by practicing *semantic html*, which is just using each tag for what it's supposed to be used for.
-This is development, seo, and ux concern.
-In development, it makes the code easier to understand.
-Search engines look for properly used html when parsing results.
-Screen readers utilize the tags for order and importance.
+* Semantic HTML
 
-### HTML Tags
+* UX Concerns
 
-html tags are surrounded in angle brackets `<>`
-there are two main types of tags, normal tags and self closing. 
-`<html></html>` - normal tags hold content (including other tags)
-`<img/>` - self closing exist in a location
+# HTML Tags & attributes
+[10:00 - 10:30]
 
-#### Common Tags
+### Common Tags
 
 > full list: https://www.w3schools.com/TAgs/default.asp
 
@@ -106,7 +92,11 @@ there are two main types of tags, normal tags and self closing.
   - `<li></li>`              -- Defines a list item
 - `<video></video>`        -- Defines a video or movie
 
-## Intro to CSS
+# Break
+[10:30 - 10:40]
+
+# Intro to CSS
+[10:40 - 11:10]
 
 Cascading Style Sheets
 
@@ -179,15 +169,7 @@ index.html
 </html>
 ```
 
-## Building a Basic Webpage
-
-> build the `basic.html` file step by step explaining each piece, it's purpose, etc.
-
-## Building an About Page
-
-> build the `about.html` file and explain.
-
-## The Box Model
+### The Box Model
 
 consists of 4 pieces:
 
@@ -199,35 +181,56 @@ Padding: negative space within the object
 
 Content: Actual content, not including negative space
 
-## CSS Layouts
+# Building a Basic Webpage
+[11:10 - 12:00]
 
-> designing a layout
+# Lunch
+[12:00 - 1:00]
 
-## CSS property Exploration
+# Building a full webpage
+[1:00 - 2:00]
 
-## Building a Portfolio Site
+# Flexbox & Responsive Design
+[2:00 - 2:15]
 
-> end of day exercise
+# Exercise: Playing with CSS
+[2:15 - 3:00]
 
-(day two)
+# Break
+[3:00 - 3:15]
 
-## Responsive Design & Media Queries
+# Basic Javascript
+[3:15 - 3:45]
 
-## Adding Javascript
+# Putting It All Together
+[3:45 - 4:15]
 
-show / hide div example
+# Wrap up
+[4:15 - 5:00]
 
-### On-Page
+Day Two - IN PROGRESS
+--------
 
-Javascript in a style tag on the webpage
+# Review
+[9:00 - 9:30]
 
-### External script
+# Responsive Design & Media Queries
+[9:30 - 10:00]
 
-Take the previous script and move it to a .js file to show best practice.
+# Bootstrap Basics
+[10:00 - 10:30]
 
-## Creating an application
+# Bootstrap Layouts
+[10:30 - 10:50]
 
-> build a todo app
+# Bootstrap Responsiveness
+[10:50 - 11:10]
+
+# Bootstrap Utilities
+[11:10 - 11:20]
+
+# Bootstrap Components
+[11:20 - 12:00]
 
 ## Hosting / Publishing
 
