@@ -25,6 +25,8 @@ Topics:
 Day 1
 -----
 
+TODO: Details
+
 # Introduction & Overview
 [9:00 - 9:15]
 
@@ -232,7 +234,7 @@ Day Two - IN PROGRESS
 # Bootstrap Components
 [11:20 - 12:00]
 
-## Hosting / Publishing
+# Hosting / Publishing
 
 > Web hosting, what it's for, and how to use it
 
