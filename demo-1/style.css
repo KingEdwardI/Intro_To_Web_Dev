@@ -1,0 +1,76 @@
+/* starting with the top of the page. */
+
+body {
+  /* reset the default styles */
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body,h1,h2,h3,h4,h5 {
+  font-family: "Raleway", sans-serif
+}
+
+/* to select a class-labeled element, we use a `.` to be selecting a class */
+.page-wrapper {
+  margin-left: 15%; /* css supports all sorts of measurements. px, %, in, vw, vh, etc */
+  margin-right: 15%;
+}
+
+.intro {
+  text-align: center;
+}
+
+.preamble {
+  text-align: center;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+
+/* to select an element that is a child of another element (nested within it syntactially), we can select those elements with `>` */
+.preamble > p {
+  display: inline-flex;
+  width: 30%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify; /* here we see an example of how the cascading sheet overwrites attributes previously set */
+}
+
+/* we can chain selected elements by seperating them by commas */
+.explanation, .requirements {
+    text-align: center;    
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* we can combine chaining techniques as much as we want */
+.explanation > p, .requirements > p {
+  display: inline-flex;
+  width: 45%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+}
+
+footer {
+  height: 150px;
+  text-align: center;
+  margin-top: 75px;
+}
+
+/* we can put as many attributes onto a selector as we want, giving us a lot of power via css */
+footer > a {
+  display: inline-flex;
+  padding-top: 15px;
+  padding-left: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: grey;
+  background-color: black;
+  border-radius: 10%;
+  height: 30px;
+  width: 60px;
+}
