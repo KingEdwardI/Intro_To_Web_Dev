@@ -187,24 +187,37 @@ section#portfolio {
     background-image: url(img/portfolio/thumbnails/6.jpg);
 }
 
-.cover {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    color: white;
-    background-color: rgba(64, 72, 125, 0.7);
-    height: 66%;
-    width: 100%;
-    visibility: hidden;
-    padding-top: 33%;
-}
-
 .portfolio-box > a {
     text-decoration: unset;
 }
 
 .portfolio-box:hover > a > .cover {
     visibility: visible;
+}
+
+.cover {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(64, 72, 125, 0.7);
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    padding-top: 25%;
+}
+
+@media (max-width: 768px) {
+    section#portfolio {
+        height: 24rem;
+    }
+    .portfolio-box {
+        height: 13rem;
+    }
+    .cover {
+        height: 
+    }
 }
 
 /* 

@@ -190,17 +190,36 @@ w3's original example is utilizing a built out css framework. We'll get into fra
 
 instead of creating a whole layout, we'll only create what we need while making it somewhat responsive with the help of flexbox.
 
-( step through adding styles to demo two, showing what each style does, and how they work together. ) 
+( step through adding styles to demo two, showing what each style does, and how they work together. )
 
-# Flexbox & Responsive design
+Now we have a pretty nice looking webpage. It might not be the cleanest, but it's complete. Now watch what happens when we resize the screen. It's not too bad, but we can see a couple things that could be a bit nicer. Let's focus on the portfolio section and see what we can do to fix that. 
 
-TODO
+# Media Queries
+
+To solve this problem, we have a useful little tool called media queries. These are CSS selectors that target elements when certain conditions are met. In this case we will want to target screen size. We want to change the styles when the screen is a smaller size. To do this, we'll create a media query that activates when the screen is less than tablet size. (768px)
+
+after applying this, we can resize the screen and watch the transition happen.
+
+We can do a lot with responsive design. By checking out this website designers page, we can see a really good example of responsive design focus. http://owltastic.com/
+(open the website, resize the screen, play around)
+
+You can get a list of the most common screen sizes, and when focusing on responsive design, you'll want to make sure to cover all of them.
 
 # Exercise: Playing with the CSS
 
 (students instructed to mess with the CSS, see what they can figure out on their own. 45mins)
 
+(break?)
+
 # Adding in javascript
+
+Now to wrap up the day, I'm going to introduce some very basic javascript so that when we pick up on day two, we have a jumping off point. Now Javascript is a really big chunk to bite off all at once, but it can be broken down into manageable pieces. Today we'll just start with the basics.
+
+Javascript is much easier and much more forgiving than many other languages. For example, languages like Java (which has no relation to Javascript) require some setup and boilerplating before we can even start writing code. With JS, we can get started without very much background knowledge.
+
+The first thing to know is where to put the code. There are three main places that you can write your JS. This is similar to where we can put CSS. There's no "inline JS", but we can start by writing it directly into the console. We can get to the console by right clicking on any webpage, hitting "inspect" and then going to the "console" tab. Once here, we can watch something happen by typing `console.log('hello world')` and that will get printed to the console. This doesn't do anything other than that, but it shows us that javascript is in fact here and works. The second place, is on the page within a `<script></script>` tag. This is a common place for JS to go, but it has the same restrictions of the `<style></style>` tag. Finally we're left with an external file to hold our javascript. 
+
+
 
 basic javascript to change around css, make things appear, reappear, count? 
 
