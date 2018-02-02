@@ -8,7 +8,7 @@ html, body {
 hr {
     max-width: 75px;
     border-width: 3px;
-    border-color: orange;
+    border-color: orangered;
 }
 
 /* these are at the top, just for organization. They are utility classes that do very small things, but can be used all throughout the application. */
@@ -93,9 +93,10 @@ Begin About
 
 #about {
     height: 60vh;
-    background-color: orange;
+    background-color: orangered;
     text-align: center;
     padding-top: 50px;  
+    color: white;
 }
 
 #about .abt-wrap {
@@ -109,7 +110,6 @@ Begin About
 }
 
 #about h2 {
-    color: white;
     font-weight: 400;
     font-size: 24pt;
 }
@@ -120,4 +120,132 @@ Begin About
 
 #about hr {
     border-color: white;
+}
+
+/* 
+  End About
+  Begin Services
+*/
+
+#services {
+  text-align: center;
+  height: 400px;
+}
+
+#services > #service-heading {
+  margin-top: 175px;
+}
+
+#services .section-heading {
+  font-size: 24pt;
+  font-weight: 400;
+}
+
+#services .fa {
+    color: orangered
+}
+
+#services .panel {
+  float: left;
+  clear: right;
+  width: 25%;
+}
+
+/*
+    End Services
+    Begin Portfolio
+*/
+section#portfolio {
+    height: 30rem;
+}
+
+.portfolio-box {
+    width: 33.33%;
+    height: 16rem;
+    float: left;
+    clear: right;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.portfolio-box#one {
+    background-image: url(img/portfolio/thumbnails/1.jpg);
+}
+.portfolio-box#two {
+    background-image: url(img/portfolio/thumbnails/2.jpg);
+}
+.portfolio-box#three {
+    background-image: url(img/portfolio/thumbnails/3.jpg);
+}
+.portfolio-box#four {
+    background-image: url(img/portfolio/thumbnails/4.jpg);
+}
+.portfolio-box#five {
+    background-image: url(img/portfolio/thumbnails/5.jpg);
+}
+.portfolio-box#six {
+    background-image: url(img/portfolio/thumbnails/6.jpg);
+}
+
+.cover {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(64, 72, 125, 0.7);
+    height: 66%;
+    width: 100%;
+    visibility: hidden;
+    padding-top: 33%;
+}
+
+.portfolio-box > a {
+    text-decoration: unset;
+}
+
+.portfolio-box:hover > a > .cover {
+    visibility: visible;
+}
+
+/* 
+    End Portfolio
+    Begin Download
+*/
+
+section.download {
+    background-color: #212529;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.download h2 {
+    font-size: 24pt;
+    font-weight: 400;
+    padding-top: 80px;
+}
+
+/*
+    End Download
+    Begin Contact
+*/
+
+#contact {
+    text-align: center;
+    height: 500px; 
+}
+
+.contact-header {
+    padding-top: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-panel {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
 }
