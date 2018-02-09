@@ -27,31 +27,16 @@ Day 1
 
 TODO: Details
 
-# Introduction & Overview
+#### Introduction & Overview
 [9:00 - 9:15]
 
-# Decoding the Alphabet Soup: What is HTML, CSS, Javascript?
+#### Decoding the Alphabet Soup: What is HTML, CSS, Javascript?
 [9:15 - 9:45]
 
-* analogy
-
-* HTML, A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text.
-  -- we can tell that we are giving structure with `<body>` and `<h1>`, etc. versus providing content `the quick brown fox`
-* CSS, A style sheet language, or style language, is a computer language that expresses the presentation of structured documents.
-  -- how we describe the details of the layout to the computer.
-* Javascript, A programming language is something that can be used to solve a problem/perform an alogrithm. 
-  -- 2 + 2 = 4 - 1 = 3 quick mafs
-
-# Intro to HTML
+#### Intro to HTML
 [9:45 - 10:00]
 
-* HyperText Markup Language
-
-* Semantic HTML
-
-* UX Concerns
-
-# HTML Tags & attributes
+#### HTML Tags & attributes
 [10:00 - 10:30]
 
 ### Common Tags
@@ -94,150 +79,78 @@ TODO: Details
   - `<li></li>`              -- Defines a list item
 - `<video></video>`        -- Defines a video or movie
 
-# Break
+#### Break
 [10:30 - 10:40]
 
-# Intro to CSS
+#### Intro to CSS
 [10:40 - 11:10]
 
-Cascading Style Sheets
-
-Used for adding styles to a webpage.
-
-"cascading" because styles written further down the page will overwrite those written above.
-
-Too many to provide a short list, but easy to find what you need.
-
-Examples of what is possible:
-
-http://www.csszengarden.com/
-
-all of these use the same html, with different css.
-
-### Inline styles
-
-not good to use in production code, makes it very difficult to change in the future.
-
-```html
-<div style="background-color:blue; height: 100px; width: 100px;"></div>
-```
-
-### On-Page Styles
-
-okay for small pages / projects, but will quickly become hefty.
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title></title>
-    <style>
-      div {
-        background-color: blue;
-        height: 100px;
-        width: 100px;
-      }
-    </style>
-  </head>
-  <body>
-    <div></div>
-  </body>
-</html>
-```
-
-### External Stylesheet
-
-Best practice, how these are organized is up to the developer.
-
-style.css
-```css
-div {
-  background-color: blue;
-  height: 100px;
-  width: 100px;
-}
-```
-
-index.html
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" src="./style.css"/>
-</head>
-<body>
-  <div></div>
-</body>
-</html>
-```
-
-### The Box Model
-
-consists of 4 pieces:
-
-Margin: negative space around the object
-
-Border: edges of the object
-
-Padding: negative space within the object
-
-Content: Actual content, not including negative space
-
-# Building a Basic Webpage
+#### Building a Basic Webpage
 [11:10 - 12:00]
 
-# Lunch
+#### Lunch
 [12:00 - 1:00]
 
-# Building a full webpage
+#### Building a full webpage
 [1:00 - 2:00]
 
-# Flexbox & Responsive Design
+#### Flexbox & Responsive Design
 [2:00 - 2:15]
 
-# Exercise: Playing with CSS
+#### Exercise: Playing with CSS
 [2:15 - 3:00]
 
-# Break
-[3:00 - 3:15]
+#### Break
+[3:00 - 3:10]
 
-# Basic Javascript
-[3:15 - 3:45]
+#### Basic Javascript
+[3:10 - 3:45]
 
-# Putting It All Together
+#### Putting It All Together
 [3:45 - 4:15]
 
-# Wrap up
+#### Wrap up
 [4:15 - 5:00]
 
-Day Two - IN PROGRESS
+Day Two
 --------
 
-# Review
+#### Review
 [9:00 - 9:30]
 
-# Responsive Design & Media Queries
+#### Responsive Design & Media Queries
 [9:30 - 10:00]
 
-# Bootstrap Basics
+#### Bootstrap Basics
 [10:00 - 10:30]
 
-# Bootstrap Layouts
-[10:30 - 10:50]
+#### Break
+[10:30 - 10:45]
 
-# Bootstrap Responsiveness
-[10:50 - 11:10]
+#### Bootstrap Layouts, Utilities & Components
+[10:45 - 11:20]
 
-# Bootstrap Utilities
-[11:10 - 11:20]
-
-# Bootstrap Components
+#### Rebuilding Yesterdays Project with Bootstrap
 [11:20 - 12:00]
 
-# Hosting / Publishing
+#### Lunch
+[12:00 - 1:00]
+
+#### Javascript with jQuery
+[1:00 - 2:00]
+
+#### Exercise: Customizing Bootstrap & jQuery
+[2:00 - 3:00]
+
+#### Hosting / Publishing
+[3:00 - 4:00]
 
 > Web hosting, what it's for, and how to use it
 
 > deciding on a hosting service.
 
 > FTP / SSH
+
+#### Q & A / Buffer Time
+[4:00 - 5:00]
+

@@ -219,12 +219,10 @@ Javascript is much easier and much more forgiving than many other languages. For
 
 The first thing to know is where to put the code. There are three main places that you can write your JS. This is similar to where we can put CSS. There's no "inline JS", but we can start by writing it directly into the console. We can get to the console by right clicking on any webpage, hitting "inspect" and then going to the "console" tab. Once here, we can watch something happen by typing `console.log('hello world')` and that will get printed to the console. This doesn't do anything other than that, but it shows us that javascript is in fact here and works. The second place, is on the page within a `<script></script>` tag. This is a common place for JS to go, but it has the same restrictions of the `<style></style>` tag. Finally we're left with an external file to hold our javascript. 
 
-
+(code a few lines of javascript)
 
 basic javascript to change around css, make things appear, reappear, count? 
 
-TODO: Details
-
-# Javascript with JQuery?
-
 Q&A
+
+END 1
