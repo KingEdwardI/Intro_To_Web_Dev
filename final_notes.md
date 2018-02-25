@@ -18,24 +18,32 @@ All of these together can be used to create webpages. Using them from scratch ca
 CheatSheets:
 
 <a href="http://htmlcheatsheet.com/">HTML</a>
+
 <a href="http://htmlcheatsheet.com/css">CSS</a>
+
 <a href="http://htmlcheatsheet.com/js">JS</a>
 
 HTML:
 
 <a href="https://www.w3schools.com/html/"> W3 Schools </a>
+
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"> Mozilla </a>
 
 CSS:
 
 <a href="https://www.w3schools.com/css/"> W3 Schools </a>
+
 <a href="https://css-tricks.com/"> CSS Tricks </a>
+
 <a href="https://codepen.io"> CodePen </a>
+
 <a href="https://csszengarden.com"> CSS Zen Garden </a>
+
 
 JS:
 
 <a href="https://www.javascript.com/resources"> Javascript.com </a>
+
 <a href="https://github.com/micromata/awesome-javascript-learning"> Extensive learning list </a>
 
 & don't forget your friendly neighborhood Google!
@@ -98,8 +106,11 @@ Warnings:
 
 * Probably not a good idea for large applications.
 
-<small>\*\* Example: You're displaying a list of items. in HTML, this could take at least as many lines as number of items. 
+<small>
+\*\* Example: You're displaying a list of items. in HTML, this could take at least as many lines as number of items. 
+
 <br/>
+
 Using jQuery to generate it would only take writing it once. 
 
 ```javascript
